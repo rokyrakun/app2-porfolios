@@ -5,7 +5,8 @@ import pandas as pd
 
 st.set_page_config(page_title="Rob Ballard", page_icon=":smiley:", layout="wide")
 
-col1, col2 = st.columns(2) #create 2 columns
+#columns 1 and 3 will be 4 times wider than 2
+col1, col2 = st.columns(2) #create 3 columns, one empty
 
 with col1: #open a column
     st.image("images/profile.jpg")
@@ -28,7 +29,7 @@ st.write(content2, unsafe_allow_html=True)
 
 #create two additional columns (which confuses me a little)
 #again ... this code processes chronologically
-col3, col4 = st.columns(2)
+col3, empty_col, col4 = st.columns([1, .25, 1])
 
 #sep = seperator
 #df = data frame
@@ -40,10 +41,21 @@ df = pd.read_csv("data.csv", sep=";")
 with col3:
     for index, row in df[:10].iterrows():
         st.header(row["title"])
+        st.write(row["description"]) #regular write on the description
+        st.image("images/" + row["image"]) #get image from images directory
+        #the square brackets here being recognized as a link is part of markdown text processing,
+        #which streamlit supports by default.  so that's why this works in an f-string.
+        #notice, entire argument is an f-string
+        st.write(f"[Source Code]({row['url']})") #source code is text.  tricky syntax there
+
 
 with col4:
     for index, row in df[10:].iterrows():
         st.header(row["title"])
+        st.write(row["description"])
+        st.image("images/" + row["image"])
+        #[display text](url) is standard markdown text for a web link
+        st.write(f"[Source Code]({row['url']})")
 
 
 
