@@ -1,4 +1,7 @@
 import streamlit as st
+#pandas is a streamlit module to process .csv files
+import pandas as pd
+
 
 st.set_page_config(page_title="Rob Ballard", page_icon=":smiley:", layout="wide")
 
@@ -22,6 +25,31 @@ content2 = """
 #when the code is unindented, as it is here, it will stand on its own
 #outside the context of the two columns in page setup.  i kinda guessed that part, but it worked.
 st.write(content2, unsafe_allow_html=True)
+
+#create two additional columns (which confuses me a little)
+#again ... this code processes chronologically
+col3, col4 = st.columns(2)
+
+#sep = seperator
+#df = data frame
+df = pd.read_csv("data.csv", sep=";")
+
+#must use an index, and the data itsef for intterrows
+#return a pandas series, which you can then process (title below)
+#df[:10] .. first 10 rows
+with col3:
+    for index, row in df[:10].iterrows():
+            st.header(row["title"])
+
+with col4:
+    for index, row in df[10:].iterrows():
+        st.image(row["title"])
+
+
+
+
+
+
 
 
 
