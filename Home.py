@@ -5,7 +5,6 @@ import pandas as pd
 
 st.set_page_config(page_title="Rob Ballard", page_icon=":smiley:", layout="wide")
 
-#columns 1 and 3 will be 4 times wider than 2
 col1, col2 = st.columns(2) #create 3 columns, one empty
 
 with col1: #open a column
