@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7cf9d0c-f331-4645-9cde-cafc2c1428b3" name="Changes" comment="day 22.  added description, image, and links.">
-      <change afterPath="$PROJECT_DIR$/.idea/app2-portfolios.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send_email.py" afterDir="false" />
+    <list default="true" id="c7cf9d0c-f331-4645-9cde-cafc2c1428b3" name="Changes" comment="day 23. send email, which doesn't work for shit!!!">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/Contact_Us.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Contact_Us.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/send_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/send_email.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,31 +33,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "Python.certifi_debug.executor": "Run",
-    "Python.rewrite.executor": "Run",
-    "Python.rewrite2.executor": "Run",
-    "Python.send_email.executor": "Run",
-    "Python.smtp_try.executor": "Run",
-    "Python.socket.executor": "Run",
-    "Python.ssl2_debug.executor": "Run",
-    "Python.ssl6_debug.executor": "Run",
-    "Python.ssldebug4.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "last_opened_file_path": "C:/Users/Owner/PycharmProjects/rb/app2-portfolios",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;Python.Home.executor&quot;: &quot;Run&quot;,
+    &quot;Python.certifi_debug.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rewrite.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rewrite2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.send_email.executor&quot;: &quot;Run&quot;,
+    &quot;Python.smtp_try.executor&quot;: &quot;Run&quot;,
+    &quot;Python.socket.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ssl2_debug.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ssl6_debug.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ssldebug4.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Owner/PycharmProjects/rb/app2-portfolios&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Owner\PycharmProjects\rb\app2-portfolios" />
       <recent name="C:\Users\Owner\PycharmProjects\rb\app2-portfolios\Images" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ssl6_debug">
+  <component name="RunManager" selected="Python.send_email">
+    <configuration name="Home" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="app2-portfolios" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Home.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="certifi_debug" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="app2-portfolios" />
       <option name="ENV_FILES" value="" />
@@ -76,28 +95,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/certifi_debug.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="rewrite" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="app2-portfolios" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rewrite.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.send_email" />
+        <item itemvalue="Python.Home" />
         <item itemvalue="Python.ssl6_debug" />
         <item itemvalue="Python.rewrite2" />
-        <item itemvalue="Python.send_email" />
         <item itemvalue="Python.certifi_debug" />
-        <item itemvalue="Python.rewrite" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736614129997</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="day 23. send email, which doesn't work for shit!!!">
+      <option name="closed" value="true" />
+      <created>1736709622678</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1736709622678</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -265,6 +270,7 @@
     <MESSAGE value="rendered titles into two separate columns." />
     <MESSAGE value="corrected rendering the titles into 2 columns." />
     <MESSAGE value="day 22.  added description, image, and links." />
-    <option name="LAST_COMMIT_MESSAGE" value="day 22.  added description, image, and links." />
+    <MESSAGE value="day 23. send email, which doesn't work for shit!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 23. send email, which doesn't work for shit!!!" />
   </component>
 </project>
